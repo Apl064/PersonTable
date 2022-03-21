@@ -14,4 +14,6 @@ struct Person {
     var fullName: String {
         "\(firstName) \(secondName)"
     }
+    
+    
 }

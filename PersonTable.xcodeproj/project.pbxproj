@@ -14,7 +14,7 @@
 		AB2E620827E90FD800596BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2E620627E90FD800596BA3 /* LaunchScreen.storyboard */; };
 		AB2E621627E9139900596BA3 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2E621527E9139900596BA3 /* PersonTableViewController.swift */; };
 		AB2E621827E91F5E00596BA3 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2E621727E91F5E00596BA3 /* Persona.swift */; };
-		AB2E621A27E9234700596BA3 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2E621927E9234700596BA3 /* PersonData.swift */; };
+		AB2E621A27E9234700596BA3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2E621927E9234700596BA3 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		AB2E620927E90FD800596BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB2E621527E9139900596BA3 /* PersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
 		AB2E621727E91F5E00596BA3 /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
-		AB2E621927E9234700596BA3 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		AB2E621927E9234700596BA3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 		AB2E621427E9111800596BA3 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
-				AB2E621927E9234700596BA3 /* PersonData.swift */,
+				AB2E621927E9234700596BA3 /* DataManager.swift */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 				AB2E621827E91F5E00596BA3 /* Persona.swift in Sources */,
 				AB2E61FC27E90FD000596BA3 /* AppDelegate.swift in Sources */,
 				AB2E621627E9139900596BA3 /* PersonTableViewController.swift in Sources */,
-				AB2E621A27E9234700596BA3 /* PersonData.swift in Sources */,
+				AB2E621A27E9234700596BA3 /* DataManager.swift in Sources */,
 				AB2E61FE27E90FD000596BA3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
