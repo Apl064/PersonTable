@@ -8,8 +8,9 @@
 import Foundation
 
 class DataManager {
+    static let shared = DataManager()
     
-    let firstName = ["Андрей",
+    let firstNames = ["Андрей",
                      "Марат",
                      "Слава",
                      "Вася",
@@ -18,9 +19,10 @@ class DataManager {
                      "Сережа",
                      "Коля",
                      "Леша",
-                     "Саша"]
+                     "Саша"
+    ]
     
-    let secondName = ["Пупкин",
+    let secondNames = ["Пупкин",
                       "Табуреткин",
                       "Заборов",
                       "Мухоморов",
@@ -29,9 +31,10 @@ class DataManager {
                       "Паровозов",
                       "Петров",
                       "Васечкин",
-                      "Идиотов"]
+                      "Идиотов"
+    ]
     
-    let email = ["pup@mail.ru",
+    let emails = ["pup@mail.ru",
                  "tab@mail.ru",
                  "zab@mail.ru",
                  "pod@mail.ru",
@@ -40,9 +43,10 @@ class DataManager {
                  "par@mail.ru",
                  "pet@mail.ru",
                  "vas@mail.ru",
-                 "idi@mail.ru"]
+                 "idi@mail.ru"
+    ]
     
-    let phone = ["8(999)111-00-11",
+    let phones = ["8(999)111-00-11",
                  "8(888)222-99-22",
                  "8(777)333-88-33",
                  "8(666)444-77-44",
@@ -51,5 +55,6 @@ class DataManager {
                  "8(444)777-44-77",
                  "8(333)888-33-88",
                  "8(222)999-22-99",
-                 "8(111)000-11-00"]
+                 "8(111)000-11-00"
+    ]
 }
