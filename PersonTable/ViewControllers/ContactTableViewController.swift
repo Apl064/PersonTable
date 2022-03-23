@@ -39,6 +39,6 @@ class ContactTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        getPersons[indexPath.row].fullName
+        getPersons[section].fullName
     }
 }
