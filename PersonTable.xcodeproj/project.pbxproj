@@ -15,6 +15,7 @@
 		AB2E621627E9139900596BA3 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2E621527E9139900596BA3 /* PersonTableViewController.swift */; };
 		AB2E621827E91F5E00596BA3 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2E621727E91F5E00596BA3 /* Persona.swift */; };
 		AB2E621A27E9234700596BA3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2E621927E9234700596BA3 /* DataManager.swift */; };
+		ABBDDBC227EA6347009BE53A /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBDDBC127EA6347009BE53A /* ContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AB2E621527E9139900596BA3 /* PersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
 		AB2E621727E91F5E00596BA3 /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
 		AB2E621927E9234700596BA3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		ABBDDBC127EA6347009BE53A /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				AB2E621527E9139900596BA3 /* PersonTableViewController.swift */,
+				ABBDDBC127EA6347009BE53A /* ContactTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				AB2E621827E91F5E00596BA3 /* Persona.swift in Sources */,
 				AB2E61FC27E90FD000596BA3 /* AppDelegate.swift in Sources */,
+				ABBDDBC227EA6347009BE53A /* ContactTableViewController.swift in Sources */,
 				AB2E621627E9139900596BA3 /* PersonTableViewController.swift in Sources */,
 				AB2E621A27E9234700596BA3 /* DataManager.swift in Sources */,
 				AB2E61FE27E90FD000596BA3 /* SceneDelegate.swift in Sources */,
