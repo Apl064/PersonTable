@@ -8,7 +8,11 @@
 struct Person {
     let firstName: String
     let secondName: String
-    let contact: (email: String, phone: String)
+    let email: String
+    let phone: String
+    var fullName: String {
+        "\(firstName) \(secondName)"
+    }
 
     static func getPerson() -> [Person] {
         let dm = DataManager.shared
@@ -22,11 +26,13 @@ struct Person {
         for index in 0..<dm.firstNames.count {
             let person = Person(firstName: firstNames[index],
                                 secondName: secondNames[index],
-                                contact: (email: emails[index],
-                                          phone: phones[index])
+                                email: emails[index],
+                                phone: phones[index]
                         )
             persons.append(person)
         }
         return persons
     }
 }
+
+
