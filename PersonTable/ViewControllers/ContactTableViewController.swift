@@ -28,10 +28,10 @@ class ContactTableViewController: UITableViewController {
         
         if indexPath.row == 0 {
             content.image = UIImage(systemName: "phone")
-            content.text = getPersons[indexPath.row].phone
+            content.text = getPersons[indexPath.section].phone
         } else {
             content.image = UIImage(systemName: "tray")
-            content.text = getPersons[indexPath.row].email
+            content.text = getPersons[indexPath.section].email
         }
         
         cell.contentConfiguration = content
