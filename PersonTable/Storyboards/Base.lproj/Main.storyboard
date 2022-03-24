@@ -111,22 +111,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ijy-h2-Yrx">
-                                <rect key="frame" x="16" y="160" width="69" height="136"/>
+                                <rect key="frame" x="16" y="160" width="41.5" height="71"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOK-Jd-TS3">
-                                        <rect key="frame" x="0.0" y="0.0" width="69" height="35"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZC-pL-b8H">
-                                        <rect key="frame" x="0.0" y="65" width="69" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrT-oN-Ioq">
-                                        <rect key="frame" x="0.0" y="115.5" width="69" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="50.5" width="41.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -144,7 +138,6 @@
                     <navigationItem key="navigationItem" title="Person info" id="6rq-gj-nCb"/>
                     <connections>
                         <outlet property="emailLabel" destination="fZC-pL-b8H" id="1B1-uA-Ng1"/>
-                        <outlet property="fullNameLabel" destination="iOK-Jd-TS3" id="IuR-40-LHz"/>
                         <outlet property="phoneLabel" destination="LrT-oN-Ioq" id="14o-Aw-dYZ"/>
                     </connections>
                 </viewController>

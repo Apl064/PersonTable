@@ -91,8 +91,8 @@
 			children = (
 				ABBDDBE727EB9662009BE53A /* TabBarViewController.swift */,
 				AB2E621527E9139900596BA3 /* PersonTableViewController.swift */,
-				ABBDDBC127EA6347009BE53A /* ContactTableViewController.swift */,
 				ABBDDBE927EBB163009BE53A /* InfoViewController.swift */,
+				ABBDDBC127EA6347009BE53A /* ContactTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";

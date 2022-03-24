@@ -32,8 +32,8 @@ class PersonTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let personInfoVC = segue.destination as? InfoViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
-        personInfoVC.fullName = getPersons[indexPath.row].fullName 
-        personInfoVC.email = "E-Mail: \(getPersons[indexPath.row].email)"
-        personInfoVC.phone = "Phone: \(getPersons[indexPath.row].phone)"
+        
+        personInfoVC.title = getPersons[indexPath.row].fullName
+        personInfoVC.person = getPersons[indexPath.row]
     }
 }
