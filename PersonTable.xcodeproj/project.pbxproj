@@ -66,7 +66,7 @@
 		AB2E61FA27E90FD000596BA3 /* PersonTable */ = {
 			isa = PBXGroup;
 			children = (
-				AB2E621427E9111800596BA3 /* DataManager */,
+				AB2E621427E9111800596BA3 /* Services */,
 				AB2E621327E910FD00596BA3 /* Model */,
 				AB2E621027E9109200596BA3 /* ViewControllers */,
 				AB2E621127E910A700596BA3 /* Storyboards */,
@@ -122,12 +122,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		AB2E621427E9111800596BA3 /* DataManager */ = {
+		AB2E621427E9111800596BA3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				AB2E621927E9234700596BA3 /* DataManager.swift */,
 			);
-			path = DataManager;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

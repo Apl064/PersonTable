@@ -19,8 +19,7 @@ class DataManager {
                      "Сережа",
                      "Коля",
                      "Леша",
-                     "Саша"
-    ]
+                     "Саша"]
     
     let secondNames = ["Пупкин",
                       "Табуреткин",
@@ -31,8 +30,7 @@ class DataManager {
                       "Паровозов",
                       "Петров",
                       "Васечкин",
-                      "Идиотов"
-    ]
+                      "Идиотов"]
     
     let emails = ["pup@mail.ru",
                  "tab@mail.ru",
@@ -43,8 +41,7 @@ class DataManager {
                  "par@mail.ru",
                  "pet@mail.ru",
                  "vas@mail.ru",
-                 "idi@mail.ru"
-    ]
+                 "idi@mail.ru"]
     
     let phones = ["8(999)111-00-11",
                  "8(888)222-99-22",
@@ -55,6 +52,5 @@ class DataManager {
                  "8(444)777-44-77",
                  "8(333)888-33-88",
                  "8(222)999-22-99",
-                 "8(111)000-11-00"
-    ]
+                 "8(111)000-11-00"]
 }
