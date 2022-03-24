@@ -10,11 +10,11 @@ import UIKit
 class ContactTableViewController: UITableViewController {
 
     //MARK: - Properties
-    var getPersons: [Person]!
+    var contacts: [Person]!
 
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
-        getPersons.count
+        contacts.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -28,10 +28,10 @@ class ContactTableViewController: UITableViewController {
         
         if indexPath.row == 0 {
             content.image = UIImage(systemName: "phone")
-            content.text = getPersons[indexPath.section].phone
+            content.text = contacts[indexPath.section].phone
         } else {
             content.image = UIImage(systemName: "tray")
-            content.text = getPersons[indexPath.section].email
+            content.text = contacts[indexPath.section].email
         }
         
         cell.contentConfiguration = content
@@ -39,6 +39,6 @@ class ContactTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        getPersons[section].fullName
+        contacts[section].fullName
     }
 }

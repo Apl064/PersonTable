@@ -10,7 +10,7 @@ import UIKit
 class TabBarViewController: UITabBarController {
 
     //MARK: - Private Properties
-    private var getPersons = Person.getPerson()
+    private let getPersons = Person.getPerson()
     
     //MARK: - Override Methods
     override func viewDidLoad() {
@@ -28,7 +28,7 @@ class TabBarViewController: UITabBarController {
             if let personTableVC = navigationVC.topViewController as? PersonTableViewController {
                 personTableVC.getPersons = getPersons
             } else if let contactVC = navigationVC.topViewController as? ContactTableViewController {
-                contactVC.getPersons = getPersons
+                contactVC.contacts = getPersons
             }
         }
     }
