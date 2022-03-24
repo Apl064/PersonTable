@@ -30,7 +30,7 @@ class PersonTableViewController: UITableViewController {
     
     //MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let personInfoVC = segue.destination as? ViewController else { return }
+        guard let personInfoVC = segue.destination as? InfoViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         personInfoVC.fullName = getPersons[indexPath.row].fullName 
         personInfoVC.email = "E-Mail: \(getPersons[indexPath.row].email)"

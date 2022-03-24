@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  InfoViewController.swift
 //  PersonTable
 //
 //  Created by Pavel Metelin on 3/23/22.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class InfoViewController: UIViewController {
 
     //MARK: - IB Outlets
     @IBOutlet var fullNameLabel: UILabel!
